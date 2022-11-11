@@ -27,6 +27,7 @@ $ curl localhost:8080/pong
 -> ping
 ```
 
+## Build Docker image locally
 
 To build the docker image locally, run:
 
@@ -43,3 +44,5 @@ docker run --publish 8080:8080 docker-echo
 ```
 
 
+## Run without Docker
+Just run `go run main.go`. 
